@@ -1,0 +1,9 @@
+
+spring:  data:    cassandra:
+      schema-action: CREATE_IF_NOT_EXISTS      contact-points:      - 127.0.0.1
+      keyspace-name: demo
+      local-datacenter: datacenter1
+      port: 9042
+      
+  application:    name: Maersk Customer Booking Portal
+    
